@@ -1,0 +1,9 @@
+[package]
+name = "ff"
+version = "0.1.0"
+authors = ["Issac Trotts <issac.trotts@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+trigram = "0.4.4"
+ignore = "0.4"
