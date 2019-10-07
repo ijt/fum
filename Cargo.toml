@@ -1,7 +1,18 @@
 [package]
-name = "ff"
+name = "fum"
 version = "0.1.0"
 authors = ["Issac Trotts <issac.trotts@gmail.com>"]
+description = """
+fum finds fuzzy matches to a literal search pattern, searching recursively
+through all the files in the current directory and respecting gitignore rules.
+"""
+documentation = "https://github.com/ijt/fum"
+homepage = "https://github.com/ijt/fum"
+repository = "https://github.com/ijt/fum"
+readme = "README.md"
+keywords = ["literal", "fuzzy", "search", "match", "trigram", "pattern"]
+categories = ["command-line-utilities", "text-processing"]
+license = "Apache-2.0"
 edition = "2018"
 
 [dependencies]
